@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assets Explained - InvestIQ</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css?v=8">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">
+                <span class="logo-icon">📊</span> InvestIQ
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="basics.html">Learn Basics</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="assets.html">Assets Explained</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="builder.html">Portfolio Builder</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="stories.html">Real Stories</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="page-header">
+        <div class="container">
+            <h1 class="display-4 fw-bold fade-in-up">Assets Explained</h1>
+            <p class="lead fade-in-up delay-1">Deep dive into each asset type with real-life analogies, risks, and how to handle them.</p>
+        </div>
+    </div>
+
+    <section class="py-5">
+        <div class="container">
+            <div class="asset-detail-card black-text fade-in-up" data-asset="cash">
+                <div class="row align-items-center">
+                    <div class="col-lg-3 text-center">
+                        <img src="https://images.pexels.com/photos/164527/pexels-photo-164527.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Cash" class="asset-detail-image">
+                    </div>
+                    <div class="col-lg-9">
+                        <div class="risk-badge risk-low">Risk: Low</div>
+                        <h2 class="mb-3">Cash</h2>
+
+                        <div class="mb-4">
+                            <h5>What it is:</h5>
+                            <p>Money in your wallet or bank account. Very safe, easy to use.</p>
+                        </div>
+
+                        <div class="analogy-box mb-4">
+                            <h5>Real-life analogy:</h5>
+                            <p class="mb-0">Like water in a bottle. You can use it any time, but water alone isn't a full meal.</p>
+                        </div>
+
+                        <div class="mb-4">
+                            <h5>What can go wrong:</h5>
+                            <ul>
+                                <li>Inflation slowly reduces the power of cash</li>
+                                <li>If you keep everything in cash, money doesn't grow much</li>
+                            </ul>
+                        </div>
+
+                        <div class="tips-box mb-4">
+                            <h5>How to handle it:</h5>
+                            <ul>
+                                <li>Keep some cash for emergencies (3-6 months of expenses)</li>
+                                <li>Don't keep all long-term money in cash</li>
+                                <li>Use high-yield savings accounts when possible</li>
+                            </ul>
+                        </div>
+
+                        <div class="example-box mb-4">
+                            <h5>Real-world example: COVID Crash 2020</h5>
+                            <p>In March 2020, markets crashed fast. People with cash could pay bills and even buy investments at cheaper prices. Cash provided stability when everything else was uncertain.</p>
+                        </div>
+
+                        <div>
+                            <h5>Learn more:</h5>
+                            <a href="https://en.wikipedia.org/wiki/2020_stock_market_crash" target="_blank" class="btn btn-sm btn-outline-primary me-2">2020 Market Crash</a>
+                            <a href="https://www.cnbc.com/2020/03/23/stocks-dow-futures-drop-as-coronavirus-outbreak-spreads.html" target="_blank" class="btn btn-sm btn-outline-primary">CNBC Coverage</a>
+                        </div>
+
+                        <div class="risk-meter mt-4">
+                            <div class="risk-meter-bar">
+                                <div class="risk-meter-fill" style="width: 20%; background: #28a745;"></div>
+                            </div>
+                            <small class="text-muted">Risk Level: 1/5</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="asset-detail-card black-text fade-in-up" data-asset="bonds">
+                <div class="row align-items-center">
+                    <div class="col-lg-3 text-center">
+                        <img src="https://images.pexels.com/photos/6772076/pexels-photo-6772076.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Bonds" class="asset-detail-image">
+                    </div>
+                    <div class="col-lg-9">
+                        <div class="risk-badge risk-low">Risk: Low-Medium</div>
+                        <h2 class="mb-3">Bonds</h2>
+
+                        <div class="mb-4">
+                            <h5>What it is:</h5>
+                            <p>A bond is like a loan. You lend money to a government or company, and they promise to pay you back with interest.</p>
+                        </div>
+
+                        <div class="analogy-box mb-4">
+                            <h5>Real-life analogy:</h5>
+                            <p class="mb-0">Like lending your friend money with a clear payback date and a thank-you gift (interest).</p>
+                        </div>
+
+                        <div class="mb-4">
+                            <h5>What can go wrong:</h5>
+                            <ul>
+                                <li>If interest rates rise, bond prices can fall</li>
+                                <li>If the borrower is risky, they might fail to pay back</li>
+                                <li>Inflation can eat into your returns</li>
+                            </ul>
+                        </div>
+
+                        <div class="tips-box mb-4">
+                            <h5>How to handle it:</h5>
+                            <ul>
+                                <li>Use bonds to add stability to your portfolio</li>
+                                <li>Mix safer government bonds with other assets</li>
+                                <li>Bonds can balance out stock volatility</li>
+                                <li>Consider bond funds for diversification</li>
+                            </ul>
+                        </div>
+
+                        <div class="example-box mb-4">
+                            <h5>Real-world example: 2008 Financial Crisis</h5>
+                            <p>In 2008, stocks crashed hard, but safe government bonds went up because people ran to safety. Investors who had bonds in their portfolio saw less overall damage than those who only owned stocks.</p>
+                        </div>
+
+                        <div>
+                            <h5>Learn more:</h5>
+                            <a href="https://en.wikipedia.org/wiki/Financial_crisis_of_2007%E2%80%932008" target="_blank" class="btn btn-sm btn-outline-primary">2008 Financial Crisis</a>
+                        </div>
+
+                        <div class="risk-meter mt-4">
+                            <div class="risk-meter-bar">
+                                <div class="risk-meter-fill" style="width: 40%; background: #ffc107;"></div>
+                            </div>
+                            <small class="text-muted">Risk Level: 2/5</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="asset-detail-card black-text fade-in-up" data-asset="index">
+                <div class="row align-items-center">
+                    <div class="col-lg-3 text-center">
+                        <img src="https://images.pexels.com/photos/6801648/pexels-photo-6801648.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Index Funds" class="asset-detail-image">
+                    </div>
+                    <div class="col-lg-9">
+                        <div class="risk-badge risk-medium">Risk: Medium</div>
+                        <h2 class="mb-3">Index Funds / ETFs</h2>
+
+                        <div class="mb-4">
+                            <h5>What it is:</h5>
+                            <p>An index fund or ETF is a basket of many investments (like stocks) packed into one. Instead of buying individual stocks, you buy a piece of the whole market.</p>
+                        </div>
+
+                        <div class="analogy-box mb-4">
+                            <h5>Real-life analogy:</h5>
+                            <p class="mb-0">Like a big snack mix bag instead of buying each nut and chip separately. You get variety without the hassle.</p>
+                        </div>
+
+                        <div class="mb-4">
+                            <h5>What can go wrong:</h5>
+                            <ul>
+                                <li>The whole market can fall (like in crashes)</li>
+                                <li>Still risky in the short term</li>
+                                <li>You can't avoid market-wide downturns</li>
+                            </ul>
+                        </div>
+
+                        <div class="tips-box mb-4">
+                            <h5>How to handle it:</h5>
+                            <ul>
+                                <li>Great for long-term investing (5+ years)</li>
+                                <li>Perfect "core" holding for beginners</li>
+                                <li>You don't need to pick single stocks</li>
+                                <li>Lower fees than actively managed funds</li>
+                                <li>Automatic diversification built-in</li>
+                            </ul>
+                        </div>
+
+                        <div class="example-box mb-4">
+                            <h5>Real-world example: S&P 500 Long-Term Growth</h5>
+                            <p>Even with crashes in 2000, 2008, and 2020, broad index funds like the S&P 500 grew significantly over 30+ years. Patient investors who held through downturns were rewarded.</p>
+                        </div>
+
+                        <div>
+                            <h5>Learn more:</h5>
+                            <a href="https://en.wikipedia.org/wiki/S%26P_500" target="_blank" class="btn btn-sm btn-outline-primary me-2">S&P 500 History</a>
+                            <a href="https://www.nytimes.com/2016/09/19/business/why-index-funds-beat-active-funds.html" target="_blank" class="btn btn-sm btn-outline-primary">Why Index Funds Work</a>
+                        </div>
+
+                        <div class="risk-meter mt-4">
+                            <div class="risk-meter-bar">
+                                <div class="risk-meter-fill" style="width: 60%; background: #ff9800;"></div>
+                            </div>
+                            <small class="text-muted">Risk Level: 3/5</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="asset-detail-card black-text fade-in-up" data-asset="stocks">
+                <div class="row align-items-center">
+                    <div class="col-lg-3 text-center">
+                        <img src="https://images.pexels.com/photos/210607/pexels-photo-210607.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Stocks" class="asset-detail-image">
+                    </div>
+                    <div class="col-lg-9">
+                        <div class="risk-badge risk-high">Risk: Medium-High</div>
+                        <h2 class="mb-3">Stocks</h2>
+
+                        <div class="mb-4">
+                            <h5>What it is:</h5>
+                            <p>A stock is a small piece of a company. If the company grows and makes money, your piece can become more valuable. You might also get dividends (small payments).</p>
+                        </div>
+
+                        <div class="analogy-box mb-4">
+                            <h5>Real-life analogy:</h5>
+                            <p class="mb-0">Like owning 1% of a small shop. If the shop becomes a big chain, your 1% becomes powerful. But if it closes, you lose your investment.</p>
+                        </div>
+
+                        <div class="mb-4">
+                            <h5>What can go wrong:</h5>
+                            <ul>
+                                <li>Stock prices can drop a lot in the short term</li>
+                                <li>Companies can fail or go bankrupt</li>
+                                <li>Individual stocks are much riskier than funds</li>
+                                <li>Emotional decisions can lead to losses</li>
+                            </ul>
+                        </div>
+
+                        <div class="tips-box mb-4">
+                            <h5>How to handle it:</h5>
+                            <ul>
+                                <li>Don't put all your money in one stock</li>
+                                <li>Think long-term (5-10+ years), not weeks</li>
+                                <li>Research companies before buying</li>
+                                <li>Consider index funds instead for less risk</li>
+                                <li>Only invest what you can afford to lose</li>
+                            </ul>
+                        </div>
+
+                        <div class="example-box mb-4">
+                            <h5>Real-world example: Amazon & Dot-com Crash</h5>
+                            <p>Amazon once fell about 95% during the dot-com crash (2000-2002) before later becoming one of the world's most valuable companies. Short-term pain, long-term growth. But many other dot-com stocks never recovered.</p>
+                        </div>
+
+                        <div>
+                            <h5>Learn more:</h5>
+                            <a href="https://en.wikipedia.org/wiki/Dot-com_bubble" target="_blank" class="btn btn-sm btn-outline-primary me-2">Dot-com Bubble</a>
+                            <a href="https://www.cnbc.com/2018/03/09/amazon-survived-the-dot-com-bust-because-of-aws.html" target="_blank" class="btn btn-sm btn-outline-primary">Amazon's Story</a>
+                        </div>
+
+                        <div class="risk-meter mt-4">
+                            <div class="risk-meter-bar">
+                                <div class="risk-meter-fill" style="width: 80%; background: #ff5722;"></div>
+                            </div>
+                            <small class="text-muted">Risk Level: 4/5</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="asset-detail-card black-text fade-in-up" data-asset="crypto">
+                <div class="row align-items-center">
+                    <div class="col-lg-3 text-center">
+                        <img src="https://images.pexels.com/photos/8369648/pexels-photo-8369648.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Cryptocurrency" class="asset-detail-image">
+                    </div>
+                    <div class="col-lg-9">
+                        <div class="risk-badge risk-extreme">Risk: Very High</div>
+                        <h2 class="mb-3">Crypto</h2>
+
+                        <div class="mb-4">
+                            <h5>What it is:</h5>
+                            <p>Crypto is digital money or tokens that people trade online. It uses blockchain technology and can go up or down very fast.</p>
+                        </div>
+
+                        <div class="analogy-box mb-4">
+                            <h5>Real-life analogy:</h5>
+                            <p class="mb-0">Like a rollercoaster: exciting and fast, but not something you live on every day. Fun for a ride, but you need solid ground to stand on.</p>
+                        </div>
+
+                        <div class="mb-4">
+                            <h5>What can go wrong:</h5>
+                            <ul>
+                                <li>Very high volatility (prices can drop 50-80% or more)</li>
+                                <li>Regulation risk and legal uncertainty</li>
+                                <li>Hacks, scams, and fraud are common</li>
+                                <li>Can lose access to wallets (lost keys = lost money)</li>
+                                <li>Many crypto projects fail completely</li>
+                            </ul>
+                        </div>
+
+                        <div class="tips-box mb-4">
+                            <h5>How to handle it:</h5>
+                            <ul>
+                                <li>Use <strong>small amounts</strong> in a portfolio (1-10%, not 100%)</li>
+                                <li>Only use money you can afford to lose completely</li>
+                                <li>Keep most of your money in more stable assets</li>
+                                <li>Research thoroughly before buying any crypto</li>
+                                <li>Beware of hype and get-rich-quick promises</li>
+                                <li>Use secure wallets and enable two-factor authentication</li>
+                            </ul>
+                        </div>
+
+                        <div class="example-box mb-4">
+                            <h5>Real-world example: Bitcoin Boom & Crashes</h5>
+                            <p>Bitcoin has gone up dramatically and crashed hard multiple times (2013, 2017-2018, 2021-2022). In 2021, Bitcoin hit $69,000, then fell to below $16,000 in 2022. This pattern of massive gains followed by steep crashes keeps repeating.</p>
+                        </div>
+
+                        <div>
+                            <h5>Learn more:</h5>
+                            <a href="https://en.wikipedia.org/wiki/History_of_bitcoin" target="_blank" class="btn btn-sm btn-outline-primary">Bitcoin History</a>
+                        </div>
+
+                        <div class="risk-meter mt-4">
+                            <div class="risk-meter-bar">
+                                <div class="risk-meter-fill" style="width: 100%; background: #d32f2f;"></div>
+                            </div>
+                            <small class="text-muted">Risk Level: 5/5</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-5 fade-in-up">
+                <h3 class="mb-4">Ready to Build Your Own Portfolio?</h3>
+                <a href="builder.html" class="btn btn-primary btn-lg">Try the Portfolio Builder</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white py-4 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="mb-0">&copy; 2025 Portfolio Builder. Educational purposes only.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <p class="text-muted small mb-0">This website is for educational purposes only and does not provide financial advice. Always do your own research or consult a professional before making investment decisions.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
