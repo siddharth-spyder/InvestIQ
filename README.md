@@ -131,7 +131,7 @@ InvestIQ doesn’t just show numbers — it **teaches** through interaction.
   - Safe Crypto User  
 - 👤 **User accounts + saved portfolios**  
 
-InvestIQ is becoming a **complete beginner-friendly investing platform**.
+InvestIQ is becoming a hands-on, play-driven portfolio sandbox that teaches beginners through exploration, clear visuals, and frictionless UI design.
 
 ---
 
